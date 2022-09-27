@@ -1,0 +1,29 @@
+body {
+  width: 600px;
+  margin: auto;
+  padding-top: 200px;
+}
+
+body h1 {
+  text-align: center;
+}
+
+.add-todo-wrapper {
+  display: flex;
+}
+
+.todos-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checked {
+  background-color: red;
+}
